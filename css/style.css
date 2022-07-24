@@ -1,0 +1,634 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-image: url(../images/header-bc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    position: relative;
+}
+.logo-part{
+
+}
+.logo-part img {}
+
+.header-part {
+    padding-top: 46px;
+}
+
+.delivery {
+
+    display: flex;
+
+    justify-content: end;
+}
+
+.delivery i {
+
+    color: #3d2514;
+
+    font-size: 28px;
+
+    margin-right: 10px;
+}
+
+.delivery p {
+
+    font-weight: 600;
+
+    color: #3d2514;
+
+    font-size: 18px;
+
+    font-family: Myriad Pro;
+}
+
+.menu {
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0%;
+}
+
+.menu ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 0;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+
+    text-decoration: none;
+
+    color: #3d2514 !important;
+
+    font-size: 19px;
+
+    font-family: Myriad Pro;
+
+    font-weight: 100;
+
+    padding: 0%;
+
+    margin-left: 47px;
+
+    text-transform: uppercase;
+}
+
+.banner_content {}
+
+.banner_content h3 {
+    padding: 6px 2%;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3d2514;
+    border: dashed;
+    border-width: 1px;
+    width: 65%;
+}
+
+.banner_content h1 {
+
+    font-size: 120px;
+
+    font-family: myriad pro;
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    text-shadow: 0px 2px white;
+
+    margin: 0;
+}
+
+.banner_content h2 {
+
+    font-size: 50px;
+
+    font-weight: 900;
+
+    font-family: myriad pro;
+
+    text-shadow: 0px 2px white;
+
+    margin-top: -12px;
+}
+
+.banner_image {}
+
+.banner_image img {}
+
+.dollar {
+
+    left: 63%;
+
+    position: absolute;
+
+    top: 70%;
+
+    transform: translate(-37%, -30%);
+
+    border: 12px solid transparent;
+
+    border-radius: 101px;
+
+    background: #bf2222;
+}
+
+.round {
+
+    color: #fff;
+
+    border: dashed;
+
+    border-radius: 78px;
+
+    border-width: 2px;
+
+    margin: 0;
+}
+
+.dash {
+
+    width: 120px;
+
+    height: 120px;
+
+    text-align: center;
+
+    padding: 9px;
+}
+.toggler-icon i{
+    border: none;
+    outline: none;
+    color: #3d2514;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.dash h1 {
+
+    margin: 0;
+
+    font-size: 40px;
+
+    text-transform: uppercase;
+
+    font-family: myriad pro;
+
+    font-weight: 900;
+}
+
+.dash h1 span {
+
+    font-size: 24px;
+}
+
+.dash h3 {
+
+    margin: 0;
+
+    font-size: 38px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    font-family: myriad pro;
+
+    font-weight: 500;
+}
+
+.try_it {
+
+    padding: 50px 0%;
+}
+
+.most {
+
+    position: relative;
+}
+
+.most img {}
+
+.image-div {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.image {
+    position: relative;
+}
+
+.text {
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 10%;
+
+    transform: translate(-6%);
+
+    width: 35%;
+}
+
+.text h3 {
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-family: myriad pro;
+
+    text-transform: uppercase;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.text h1 {
+
+    color: #fff;
+
+    font-size: 26px;
+
+    text-transform: uppercase;
+
+    font-family: myriad pro;
+}
+
+.enjoy {
+
+    padding: 50px 0%;
+
+    text-align: center;
+}
+
+.enjoy h3 {
+    margin-left: 448px;
+    border: 6px solid transparent;
+    background-color: #ffc045;
+    width: 20%;
+    text-transform: uppercase;
+    font-family: myriad pro;
+    font-size: 18px;
+    color: #3d2514;
+    margin-bottom: 20px;
+}
+
+.enjoy h1 {
+
+    font-size: 50px;
+
+    text-transform: uppercase;
+
+    font-family: myriad pro;
+
+    color: #3d2514;
+
+    font-weight: 900;
+}
+
+.enjoy p {
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+
+    color: #3d2514;
+}
+
+.choose {
+
+    width: 90%;
+
+    height: 250px;
+}
+
+.choose img {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.always h1 {
+
+    font-size: 28px;
+
+    margin-top: 26px;
+}
+
+.always p {}
+
+.btn-order {
+
+    text-transform: uppercase;
+
+    font-size: 16px;
+
+    border: 1px solid transparent;
+
+    background: red;
+
+    font-weight: 700;
+
+    font-family: myriad pro;
+
+    color: #fff;
+
+    border-radius: 3px;
+
+    padding: 6px 22px;
+}
+
+.events {
+    padding: 45px 0%;
+}
+.carousel{
+    box-shadow: 1px 34px 8px 3px #adb5bd;
+    padding: 60px 35px;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.written {
+
+    width: 40%;
+}
+
+.written h4 {
+
+font-size: 25px;
+
+font-family: myriad pro;
+
+text-transform: uppercase;
+
+letter-spacing: 3px;
+
+color: #3d3d3d;
+
+font-weight: 700;
+
+margin-bottom: 10px;
+}
+
+.written h1 {
+
+font-size: 48px;
+
+font-weight: 700;
+
+font-family: myriad pro;
+
+text-transform: uppercase;
+
+color: #3d2514;
+}
+
+.written p {
+
+    font-size: 16px;
+
+    font-family: myriad pro;
+
+    color: #3d2514;
+
+    margin: 0;
+}
+
+.gallery {
+
+    width: 50%;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #999999;
+    border-radius: 45px;
+    margin: 2px;
+}
+.owl-dots{margin-top: 33px;display: flex;justify-content: center;}
+.owl-dots .active span{
+    background: #ffc045;
+}
+
+
+.reserve {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0%;
+    text-align: center;
+}
+
+.reserve h3 {
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    color: #3d2514;
+
+    font-weight: 500;
+
+    letter-spacing: 2px;
+
+    font-family: myriad pro;
+}
+
+.reserve h1 {
+
+    font-size: 40px;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    font-family: myriad pro;
+
+    color: #3d2514;
+
+    margin-bottom: 20px;
+}
+
+.booking {
+
+    width: 48%;
+
+    padding: 30px;
+
+    margin: auto;
+}
+
+.booking form {}
+
+.booking form input {
+
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    outline-style: none;
+}
+
+.booking form input[type="submit"] {
+
+    background: #bf2222;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    font-family: myriad pro;
+}
+
+footer {
+    margin: auto;
+    background-image: url(../images/footer-bc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 88%;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+}
+
+.logo {}
+
+.logo img {
+
+    width: 250px;
+
+    margin-bottom: 40px;
+}
+
+.logo p {
+
+    color: #fff;
+
+    font-family: myriad pro;
+}
+
+.contact {
+    margin-top: 108px;
+}
+
+.contact ul {
+
+    list-style: none;
+}
+
+.contact ul li {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.contact ul li i {
+
+    font-size: 21px;
+
+    color: #fff;
+
+    margin-right: 10px;
+}
+
+.contact ul li h3 {
+
+    font-size: 16px;
+
+    color: #fff;
+
+    font-family: myriad pro;
+
+    text-transform: uppercase;
+
+    margin: 0;
+}
+
+.icon-section {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 70px;
+
+    align-items: center;
+}
+
+.icon-section p {
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-family: myriad pro;
+
+    margin: 0;
+}
+
+.icon-section ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: end;
+}
+
+.icon-section ul li {
+    margin-left: 18px;
+}
+
+.icon-section ul li i {
+
+    border: 1px solid transparent;
+
+    border-radius: 45px;
+
+    background: #fff;
+
+    width: 30px;
+
+    height: 30px;
+
+    text-align: center;
+
+    line-height: 30px;
+}

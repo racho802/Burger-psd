@@ -1,0 +1,104 @@
+
+@media(max-width: 767px){
+    .logo-part img{
+        width: 150px;
+    }
+    .navbar{
+        justify-content: end;
+    }
+    .menu {
+        text-align: center;
+        margin-top: -61px;
+    }
+    .delivery {
+        margin-top: 23px;
+        justify-content: start;
+    }
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+    .banner_content h3 {
+        margin-top: 50px !important;
+        margin: auto;
+        width: 40%;
+    }
+    
+    .banner_content h1{
+        font-size: 70px;
+        margin-top: 20px;
+    }
+    .banner_content {
+        text-align: center;
+    }
+    .banner_content h2 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .dash h3 {
+        font-size: 23px;
+      }
+      .dash {
+          width: 100px;
+          height: 100px;
+          padding: 15px;
+      }
+      .dollar {
+          left: 31%;
+          position: absolute;
+          top: 75%;
+          transform: translate(-37%, -30%);
+      }
+      .most {
+        margin-bottom: 30px;
+    }
+    .enjoy h3 {
+        width: 40%;
+        margin: auto;
+    }
+    .enjoy h1{
+        margin-top: 20px;
+    }
+    .choose {
+        margin: auto;
+        width: 319px;
+    }
+    .btn-order{
+        margin-bottom: 45px;
+    }
+    .enjoy{
+        padding: 0;
+    }
+    .written h4{
+        font-size: 16px;
+    }
+    .written h1{
+        font-size: 30px;
+    }
+    .written p{
+        font-size: 14px;
+    }
+    .booking {
+        width: 70%;
+    }
+    footer{
+        text-align: center;
+    }
+    .icon-section ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .icon-section ul li {
+        margin: 10px;
+    }
+    .contact {
+        margin-top: 50px;
+    }
+    .contact ul {
+        padding: 0;
+    }
+    .menu ul {
+        margin-top: 48px;
+    }
+}
